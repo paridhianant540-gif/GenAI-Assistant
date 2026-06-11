@@ -1,0 +1,34 @@
+[
+  {
+    "title": "TRUEAILAB Password and Security Policy",
+    "content": "Users can reset their password from Settings > Security by entering their current password and verifying their identity. Passwords must be at least 12 characters long and contain a mix of uppercase letters, lowercase letters, numbers, and special characters. Multi-Factor Authentication (MFA) is mandatory for all employees and must be configured via Google Authenticator or Duo within 3 days of onboarding. Passwords expire every 90 days, and reuse of the last 5 passwords is strictly prohibited. If your account is locked due to 5 consecutive failed attempts, contact it-support@trueailab.com."
+  },
+  {
+    "title": "Remote Work and Working Hours",
+    "content": "TRUEAILAB operates on a hybrid-first model. Core collaboration hours are 10:00 AM to 4:00 PM EST, during which all team members must be online and active on Slack. Full-time remote workers are eligible for a home office equipment reimbursement of up to $500. This budget covers ergonomic chairs, external monitors, and keyboards, and must be claimed within the first 60 days of employment. Internet expenses are reimbursed up to $60 per month, subject to providing monthly receipts through the HR Expense Portal."
+  },
+  {
+    "title": "Developer Setup Guide",
+    "content": "To set up your local development environment at TRUEAILAB, follow these steps: 1. Install Git and configure your global credentials. 2. Install Python 3.10 or higher and Node.js v18 (LTS) on your machine. 3. Clone the main repository using `git clone git@github.com:trueailab/platform-core.git`. 4. Run `pip install -r requirements.txt` to set up the backend dependencies, and `npm install` in the frontend subdirectory. 5. Copy the `.env.example` file to `.env` and fill in the required database credentials. 6. Start the local database in Docker by running `docker-compose up -d`. 7. Launch the development server using `npm run dev` or `python main.py`."
+  },
+  {
+    "title": "Code Review and Pull Request Guidelines",
+    "content": "All code changes at TRUEAILAB must go through a formal Pull Request (PR) process. A PR requires a minimum of two positive approvals from senior team members before merging into the `main` branch. Automated CI/CD pipelines must pass completely, including linting checks, unit tests, and security scanning. PR descriptions must include a link to the corresponding Jira ticket, a detailed summary of changes, and a testing walkthrough. Squash merging is the default merge strategy. Branch naming conventions dictate using prefixes like `feature/`, `bugfix/`, or `chore/` followed by the Jira ticket number."
+  },
+  {
+    "title": "Expense Reimbursement Guide",
+    "content": "Business expenses incurred on behalf of TRUEAILAB must be submitted within 30 calendar days of the transaction. Reimbursable categories include business travel, client meals, and professional development courses. Client meals are capped at $75 per person including tax and gratuity. Travel accommodations must be booked through the company's approved agency, TripActions. Receipts are mandatory for all transactions exceeding $25. Reimbursements are processed bi-weekly and paid directly through payroll direct deposit."
+  },
+  {
+    "title": "Annual Leave and Sick Policy",
+    "content": "Full-time employees at TRUEAILAB receive 25 days of Paid Time Off (PTO) per calendar year, accrued monthly. PTO requests must be submitted in the HR Portal at least two weeks in advance for approvals. Sick leave does not require prior approval, but employees must notify their direct manager via Slack before 9:00 AM local time on the day of absence. A doctor's note is required for any continuous sick leave lasting longer than 3 consecutive working days. Up to 5 unused PTO days can be rolled over to the next calendar year, expiring on March 31st."
+  },
+  {
+    "title": "AI Tooling and Ethical Guidelines",
+    "content": "TRUEAILAB encourages the responsible use of AI tools like Copilot and ChatGPT to enhance developer productivity. However, sharing proprietary customer data, intellectual property, or plain source code with public, unapproved generative models is strictly prohibited. Only enterprise-tier AI assistants with verified data-privacy policies may be used. AI-generated code must be fully vetted, tested, and reviewed under the same standards as human-written code. Developers are ultimately responsible for the reliability, security, and licensing compliance of all merged software."
+  },
+  {
+    "title": "TRUEAILAB Systems Overview and Vision",
+    "content": "Founded in 2024, TRUEAILAB Systems is a pioneer in Retrieval-Augmented Generation (RAG) and intelligent agent technologies. Our mission is to bridge the gap between static large language models and dynamic enterprise data systems. We build tools that make corporate knowledge securely and immediately actionable for employees and clients alike. Our core values are transparency, high reliability, customer-first design, and empirical accuracy. Headquartered in Boston, MA, we operate globally with a fully distributed engineering team."
+  }
+]
