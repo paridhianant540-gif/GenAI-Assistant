@@ -1,4 +1,4 @@
-# TRUEAILAB Production-Grade GenAI Assistant with RAG
+# Production-Grade GenAI Assistant with RAG
 
 This repository contains a complete, production-style, high-performance Chat Assistant that answers user questions using **Retrieval-Augmented Generation (RAG)**. 
 
@@ -150,7 +150,7 @@ Then, point your browser to:
 When testing the application, follow these guidelines to experience the full production-grade details:
 1.  **Semantic Queries**: Ask: *"How do I reset my password?"*
     *   The frontend will show a typing loader.
-    *   The RAG Inspector panel on the right will update immediately, showing a similarity score of **~0.80+** for the *"TRUEAILAB Password and Security Policy"* document, listing the exact matching chunk.
+    *   The RAG Inspector panel on the right will update immediately, showing a similarity score of **~0.80+** for the *"Password and Security Policy"* document, listing the exact matching chunk.
     *   The chatbot will answer correctly based **only** on the context.
 2.  **Out-Of-Domain Grounding Tests**: Ask: *"What is the capital of France?"* or *"Who won the 2022 World Cup?"*
     *   The vector database calculates scores.
